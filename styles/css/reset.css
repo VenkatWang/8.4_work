@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    box-sizing: content-box;
+    box-sizing: padding-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-weight: normal;
+    margin: 0;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /*去掉手机点击显示块状*/
+}
+
+a:hover,
+a:focus {
+    color: #999;
+    text-decoration: none;
+}
+
+ul,
+ol,
+li,
+dd,
+dt {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+
+/* 伪类Reset */
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+img{max-width: 100%;}
+/*iphone*/
+
+textarea,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    -webkit-appearance: none;
+}
+
+
+/* 重置表单控件垂直居中*/
+
+input,
+select,
+textarea,
+button {
+    vertical-align: middle;
+    padding: 0;
+    outline: none;
+}
+
+/*清除浮动*/
+
+.clearfix:after {
+    content: "020";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    /* 触发 hasLayout */
+    zoom: 1;
+}
+
+.fl{float: left;}
+
+.fr{float: right;}
+
+/*图标*/
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*过度动画*/
+
+.Tsition-03 {
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+/*表格*/
+
+table {width: 100%;}
